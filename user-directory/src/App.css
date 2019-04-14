@@ -1,0 +1,71 @@
+*{
+  border: #222 50px;
+}
+
+div.App {
+  font-family: calibri;
+}
+div.header {
+  background-color: #14b9e7;
+  height: 100px;
+  color: black;
+  padding: 20px;
+}
+div.body {
+  height: 800px;
+  border: 150px solid rgba(0, 0, 0, 0.890);
+  border-bottom: 20px solid rgba(0, 0, 0, 0.890);
+
+
+}
+h2.lineIndex {
+  text-align: right;
+  margin:0;
+  padding-right: 5px;
+  font-size: 70px;
+}
+h2.name {
+  margin: 0;
+  padding-left: 50px;
+  font-size: 75px;
+  border-bottom: 2px solid #2cc0e9;
+}
+div.profileList {
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 50px;
+}
+h2.movies {
+  padding-left: 50px;
+  margin: 0;
+  font-size: 30px;
+}
+section.movieList{
+  padding-left: 90px;
+  font-size: 25px;
+}
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #50c8e9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
